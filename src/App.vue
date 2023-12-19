@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ImageViewport from './components/image-viewport.vue'
+import ImageViewport from '@/components/image-viewport.vue'
 
 export default {
   name: 'App',
