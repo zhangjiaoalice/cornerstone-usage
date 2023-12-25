@@ -1,27 +1,33 @@
 <template>
   <div id="app">
-    <ImageViewport/>
+    <page-layout/>
   </div>
 </template>
 
 <script>
-import ImageViewport from '@/components/image-viewport.vue'
+// import ImageViewport from '@/components/image-viewport.vue'
+import PageLayout from '@/components/layout.vue';
 
 export default {
   name: 'App',
   components: {
-    ImageViewport
+    PageLayout,
   }
 }
 </script>
 
 <style>
+body{
+  padding: unset;
+  margin: unset;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  width: 100vw;
+  height: 100vh;
 }
 </style>
