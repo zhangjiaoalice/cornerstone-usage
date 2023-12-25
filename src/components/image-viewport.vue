@@ -51,7 +51,6 @@ export default {
 <style lang="less" scoped>
 .image-render-container {
   width: 96vw;
-  background-color: #000;
   #image-id {
     width: 96vw;
     height: 95vh;

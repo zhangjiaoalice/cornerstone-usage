@@ -34,6 +34,7 @@ export default {
             border: 1px solid #007ACC;
             border-radius: 8%;
             cursor: pointer;
+            background-color: #424c50;
         }
     }
 } 
