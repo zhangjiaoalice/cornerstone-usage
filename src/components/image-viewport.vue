@@ -15,7 +15,7 @@ cornerstoneWebImageLoader.external.cornerstone = cornerstone;
 export default {
   name: "ImageViewport",
   mounted() {
-    var exampleImageId = "dicomweb://localhost:3000/dicom1.dcm";
+    var exampleImageId = "dicomweb://localhost:3000/ser002img00011.dcm";
     console.log("imageids:", exampleImageId);
     var element = document.getElementById("image-id");
 
@@ -51,6 +51,7 @@ export default {
 <style lang="less" scoped>
 .image-render-container {
   width: 96vw;
+  border: 2px solid #59CCE6;
   #image-id {
     width: 96vw;
     height: 95vh;

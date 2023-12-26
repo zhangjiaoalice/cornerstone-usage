@@ -1,0 +1,16 @@
+{
+  "id": "4389149",
+  "name": "医学影像成像平台",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "医学影像成像平台学习版字体图标库",
+  "glyphs": [
+    {
+      "icon_id": "1240684",
+      "name": "measure",
+      "font_class": "measure",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    }
+  ]
+}

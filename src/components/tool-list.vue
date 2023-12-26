@@ -1,7 +1,7 @@
 <template>
     <div class="tool-container">
         <div class="tool-inner">
-            <div class="tool-item">工具1</div>
+            <div class="tool-item"><i class="iconfont icon-measure"></i></div>
         </div>
     </div>
 </template>
@@ -27,14 +27,19 @@ export default {
         flex-direction: column;
         justify-content: center;
         .tool-item{
-            height: 42px;
-            width: 42px;
-            font-size: 12px;
+            height: 40px;
+            width: 40px;
             color: #eee;
-            border: 1px solid #007ACC;
+            border: 2px solid #348CFD;
             border-radius: 8%;
             cursor: pointer;
             background-color: #424c50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .iconfont {
+                font-size: 30px;
+            }
         }
     }
 } 

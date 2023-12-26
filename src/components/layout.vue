@@ -31,7 +31,7 @@ export default {
 .cornerstone-demo-container {
     width: 100%;
     height: 100%;
-    background-color: #282A36;
+    background-color: #192445;
     margin: 0;
     .layout-content__inner {
         width: 100%;

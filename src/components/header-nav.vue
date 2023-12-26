@@ -12,7 +12,7 @@
 
 <script>
 export default {
-    name: 'Header Nav',
+    name: 'HeaderNav',
     data() {
         return {}
     }
