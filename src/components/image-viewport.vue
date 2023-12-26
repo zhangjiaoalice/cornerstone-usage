@@ -15,7 +15,7 @@ cornerstoneWebImageLoader.external.cornerstone = cornerstone;
 export default {
   name: "ImageViewport",
   mounted() {
-    var exampleImageId = "dicomweb://localhost:3000/ser002img00011.dcm";
+    var exampleImageId = "dicomweb://localhost:3000/dicom6.dcm";
     console.log("imageids:", exampleImageId);
     var element = document.getElementById("image-id");
 
